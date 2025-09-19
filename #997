@@ -1,0 +1,75 @@
+# Tarea 995 - Conceptos Básicos de Seguridad
+
+## CIA Triad
+El **CIA Triad** es el acrónimo de **Confidencialidad, Integridad y Disponibilidad**, siendo estos tres los pilares de la seguridad de la información.
+
+- **Confidencialidad:** Que no se revele información a quien no está autorizado. Se busca garantizar que la información sea accedida solamente por las personas a quienes se les otorga el permiso.
+- **Integridad:** Que los datos no sean alterados. Consiste en que la información no sea modificada en cualquiera de sus 3 estados (almacenamiento, proceso o tránsito).
+- **Disponibilidad:** Que la información siempre esté accesible para las personas autorizadas. Se busca que la información tenga un acceso activo en todo momento según sea necesario.
+
+---
+
+## Usability Triangle
+El **triángulo FSU** (Funcionalidad - Seguridad - Usabilidad) reúne tres aspectos fundamentales al desarrollar productos de software.  
+
+El punto negro que está en medio del triángulo define qué tan seguro, funcional y usable es nuestro producto. Este punto puede movilizarse a una esquina según la necesidad, pero mientras más se acerca a una esquina, más se aleja de las otras.
+
+---
+
+## Riesgo
+El **riesgo de seguridad de la información** se refiere al daño potencial causado por ataques a los sistemas de TI.  
+Incluye una amplia gama de eventos potenciales, como:  
+- Violaciones de datos  
+- Acciones de cumplimiento normativo  
+- Costos financieros  
+- Daños a la reputación  
+- Otros  
+
+---
+
+## MFA
+La **autenticación multifactor (MFA)** es un proceso de registro en varios pasos que requiere que los usuarios ingresen algo más que una contraseña.  
+
+Ejemplos:  
+- Contraseña + código enviado al correo electrónico  
+- Contraseña + pregunta secreta  
+- Contraseña + huella dactilar  
+
+Esto ayuda a prevenir accesos no autorizados incluso si la contraseña se ve comprometida.
+
+---
+
+## Vulnerabilidad
+Una **vulnerabilidad** es una debilidad en un sistema que puede ser utilizada por un atacante para comprometer su seguridad.  
+
+Pueden ser de varios tipos:  
+- **Hardware**  
+- **Software**  
+- **Procedimentales**  
+- **Humanas**  
+
+---
+
+## Amenaza
+Una **amenaza** es la explotación de fallos que afectan la operatividad de un sistema, con la intención de obtener algún beneficio.
+
+Se clasifican en:  
+- **Amenazas externas**  
+- **Amenazas internas**
+
+Las amenazas pueden tener un impacto significativo en las operaciones de una organización, provocando:  
+- Pérdida de datos  
+- Inactividad de sistemas críticos  
+- Pérdidas financieras  
+
+---
+
+## Impacto
+El **impacto** en la seguridad de la información ocurre cuando una amenaza logra atravesar las defensas (malware, virus, ataques, etc.) y pone en peligro los datos.
+
+Tipos de impacto:  
+- **Financiero**  
+- **Operacional**  
+- **Legal o regulatorio**  
+- **Reputación**  
+- **Estratégico**

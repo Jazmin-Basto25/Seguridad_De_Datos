@@ -2,8 +2,6 @@
 
 Escáner avanzado de redes WiFi para ESP32 con sincronización NTP, análisis de canales y múltiples opciones de configuración.
 
-## ✨ Características
-
 ### Funcionalidades Principales
 
 - ✅ **Escaneo automático de redes WiFi** con intervalo configurable
@@ -590,10 +588,3 @@ const bool SHOW_DUPLICATES = true;   // Ver todos los APs
 
 - **WiFi.h**: [Documentación oficial ESP32](https://docs.espressif.com/projects/arduino-esp32/en/latest/api/wifi.html)
 - **time.h**: Librería estándar de C para manejo de tiempo
-
-### Recursos Adicionales
-
-- [ESP32 Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
-- [Arduino ESP32 GitHub](https://github.com/espressif/arduino-esp32)
-
-- [RFC 1305 - NTP Protocol](https://www.ietf.org/rfc/rfc1305.txt)

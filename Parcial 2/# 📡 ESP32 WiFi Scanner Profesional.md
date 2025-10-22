@@ -1,22 +1,6 @@
-# 📡 ESP32 WiFi Scanner Profesional v2.0
+# 📡 ESP32 WiFi Scanner Profesional 
 
 Escáner avanzado de redes WiFi para ESP32 con sincronización NTP, análisis de canales y múltiples opciones de configuración.
-
----
-
-## 📋 Tabla de Contenidos
-
-- [Características](#-características)
-- [Requisitos](#-requisitos)
-- [Instalación](#-instalación)
-- [Configuración](#-configuración)
-- [Uso](#-uso)
-- [Funciones del Código](#-funciones-del-código)
-- [Salida del Monitor Serial](#-salida-del-monitor-serial)
-- [Solución de Problemas](#-solución-de-problemas)
-- [Licencia](#-licencia)
-
----
 
 ## ✨ Características
 
@@ -611,4 +595,5 @@ const bool SHOW_DUPLICATES = true;   // Ver todos los APs
 
 - [ESP32 Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
 - [Arduino ESP32 GitHub](https://github.com/espressif/arduino-esp32)
+
 - [RFC 1305 - NTP Protocol](https://www.ietf.org/rfc/rfc1305.txt)

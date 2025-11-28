@@ -54,7 +54,7 @@ Se usó **trufflehog** para detectar secretos mediante entropía y patrones.
 
 
 
-### 🔑 **Hallazgo y Consecuencias Técnicas**
+###  **Hallazgo y Consecuencias Técnicas**
 
 * **Secreto Comprometido:** trufflehog reveló credenciales sensibles y la **flag final (k8s_goat_flag)**.
 * **Riesgo Principal:**
@@ -62,11 +62,12 @@ Se usó **trufflehog** para detectar secretos mediante entropía y patrones.
   * Exfiltración de código fuente
   * Robo de claves API que estaban hardcodeadas
   * Vulneración completa del historial del repositorio
+<img width="949" height="1020" alt="Captura de pantalla 2025-11-27 190531" src="https://github.com/user-attachments/assets/fb2fcadc-02a1-4a07-a8b5-ab39083a622f" />
 
 
 # ## **2. DIND (Docker-in-Docker) Exploitation (Escenario 2)**
 
-### 🛑 **Descripción de la Vulnerabilidad**
+###  **Descripción de la Vulnerabilidad**
 
 El servicio **Ping Your Servers** (Pod: `internal-proxy-deployment`) presentaba dos fallas críticas:
 
@@ -178,4 +179,5 @@ Esto demuestra que RBAC mal configurado equivale a entregar control total del cl
 | **Sensitive Keys**    | Aplicar escaneo automático de secretos (Gitleaks, TruffleHog), bloquear `.git` desde HTTP, usar Git hooks preventivos.                 |
 | **DIND Exploitation** | Sanitizar entradas de usuario, prohibir montajes de sockets del host en Pods no privilegiados, aplicar Pod Security Standards.         |
 | **RBAC Excesivo**     | Auditar roles y permisos, evitar `resources: ["*"]`, aplicar mínimo privilegio estricto, usar Network Policies como defensa adicional. |
+
 

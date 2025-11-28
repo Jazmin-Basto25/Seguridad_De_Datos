@@ -63,6 +63,8 @@ Se usó **trufflehog** para detectar secretos mediante entropía y patrones.
   * Robo de claves API que estaban hardcodeadas
   * Vulneración completa del historial del repositorio
 <img width="949" height="1020" alt="Captura de pantalla 2025-11-27 190531" src="https://github.com/user-attachments/assets/fb2fcadc-02a1-4a07-a8b5-ab39083a622f" />
+<img width="776" height="808" alt="Captura de pantalla 2025-11-27 202409" src="https://github.com/user-attachments/assets/45755e3d-f8ac-4c5c-aebf-092ff09ce573" />
+
 
 
 # ## **2. DIND (Docker-in-Docker) Exploitation (Escenario 2)**
@@ -170,6 +172,7 @@ Con esto, podría robar la flag del Pod principal.
 
 Esto demuestra que RBAC mal configurado equivale a entregar control total del cluster.
 
+<img width="962" height="920" alt="Captura de pantalla 2025-11-27 233937" src="https://github.com/user-attachments/assets/d94b61a8-64b8-4385-8e0f-5f32eceede0b" />
 
 
 # ## Recomendaciones de Mitigación
@@ -179,5 +182,6 @@ Esto demuestra que RBAC mal configurado equivale a entregar control total del cl
 | **Sensitive Keys**    | Aplicar escaneo automático de secretos (Gitleaks, TruffleHog), bloquear `.git` desde HTTP, usar Git hooks preventivos.                 |
 | **DIND Exploitation** | Sanitizar entradas de usuario, prohibir montajes de sockets del host en Pods no privilegiados, aplicar Pod Security Standards.         |
 | **RBAC Excesivo**     | Auditar roles y permisos, evitar `resources: ["*"]`, aplicar mínimo privilegio estricto, usar Network Policies como defensa adicional. |
+
 
 
